@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <style>
+    /* Sticky navbar */
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 1000; /* make sure navbar stays on top */
+    }
+  </style>
+</head>
+<body style="background-color: #CCDBDC;">
+
+<div class="container-fluid p-3 bg-info text-white text-center">
+  <h1>NAMANGAN</h1>
+  <p>muallif: Zuxriddinov Lutfiddin</p> 
+</div>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Link</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="container bg-light">
+    <div class="row p-3">
+      <div class="col-sm-4 p-3 bg-info ">
+        <h3>"AFSONALAR VODIYSI"</h3>
+        <p>Namangan viloyatidagi Afsonalar vodiysi — bu turistik joy bo'lib, tabiiy go'zallik, tarixiy va madaniy boyliklarni o'zida mujassam etgan ajoyib parkdir. </p>
+        <p>Afsonalar vodiysi parki qadimiy manzara va betakror tabiat bilan ajralib turadi. Park, asosan, sayyohlarni o'zining tabiiy landshaftlari va afsonaviy hikoyalari bilan jalb etadi.</p>
+        <p>Joylashuvi: Afsonalar Vodiysi park Namangan viloyatining tog‘li hududlarida, ayniqsa, Chortoq yoki Tavaksay tog‘lari yaqinida joylashgan. Bu joy tabiiy go‘zalligi va betakror manzaralari bilan mashhur.</p>
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="afsona1.jpg" alt="Los Angeles" class="rounder" style="width:100%">
+              </div>
+              <div class="carousel-item">
+                <img src="afsona2.jpg" alt="Chicago" class="d-block" style="width:100%">
+              </div>
+              <div class="carousel-item">
+                <img src="afsona3.2.jpg" alt="New York" class="d-block" style="width:100%">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+    </div>
+      <div class="col-sm-4 p-3">
+        <h3> Xalqaro "Gullar Festivali"</h3>
+        <p>Gullar festivali — bu O‘zbekistonda, ayniqsa, Namangan viloyatida har yili o‘tkaziladigan ko‘p qirrali madaniy tadbirdir.</p>
+        <p>Festivalda tabiiy go‘zallik, ayniqsa gul va o‘simliklar olami namoyon bo‘ladi. Festivalning o‘ziga xos jihatlaridan biri — xalqning gullarga bo‘lgan katta qiziqishi va ularning turli ranglari, turlari bilan bezatilgan ko‘chalar va maydonlardir. Gullar festivali O‘zbekistonning bahor faslida, odatda aprel-may oylarida o‘tkaziladi va unda nafaqat gullar, balki musiqa, xalq amaliy san'ati va folklor an'analari ham namoyish etiladi. Bu yil 63-yilligi bo'lib o'tdi</p>
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="gullar1.webp" alt="Los Angeles" class="d-block" style="width:100%">
+              </div>
+              <div class="carousel-item">
+                <img src="gullar5.webp" alt="Chicago" class="d-block" style="width:100%">
+              </div>
+              <div class="carousel-item">
+                <img src="gullar3.2.jpg" alt="New York" class="d-block" style="width:100%">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+    </div>
+      <div class="col-sm-4 bg-info p-3">
+        <h3>Baliqlikoʻl ziyoratgohi </h3>        
+        <p> Oʻzbekistonning Namangan viloyati Chortoq tumanida joylashgan diqqatga sazovor joylaridan biri. 2019-yilda tasdiqlangan Oʻzbekiston moddiy va madaniy merosining koʻchmas mulk obyektlari milliy roʻyxatiga kiritilgan. Obyekt davri — 1863-yil. Bogʻiston MFYda joylashgan[1].</p>
+        <p>Tarixiy manbalar va ayrim rivoyatlarga koʻra, Sulton Uvays Qaroniy "Yamandagi Qaran qishlog’ida Murodiy qabilasining chorvador oilasida tugʻilib voyaga yetgan. Chortoq tumani Baliqkoʻl qishlogʻidagi mazkur ziyoratgoh XII-XIII asrlarga tegishli boʻlib, turli davrlarda taʼmirlash ishlari olib borilgan.</p>
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="baliq ko'l1.webp" alt="Los Angeles" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+              <img src="baliq ko'l2.webp" alt="Chicago" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+              <img src="baliq ko'l3.webp" alt="New York" class="d-block" style="width:100%">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="container bg-light mt-3">
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-indicators container">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner container ">
+      <div class="carousel-item active">
+        <img src="afssona masjid4.2.jpg" alt="Los Angeles" class="d-block w-100 border-4" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Uning hovlisining umumiy maydoni 4 gektarni tashkil etadi. 20 ming kvadrat metr joyda qurilgan.</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="afssona masjid2.jpg" alt="Chicago" class="d-block w-100 border-4" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Bir vaqtning o‘zida 15 ming namozxon ibodat qilishi mumkin. 2 gektari 700 o‘rinli avtoturargoh uchun mo‘ljallangan.</h3>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <img src="afssona masjid3.jpg" alt="New York" class="d-block w-100 border-4" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Xonaqohning o‘ziga 4,5 ming kishi sig‘adi. Shuningdek, 100 kishiga xizmat qiladigan tahoratxona ham mavjud</h3>
+        </div>  
+      </div>
+    </div>
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</div>
+
+<div class="container bg-info mt-3" >
+  <div class="row p-3">
+    <h3 style="text-align: center;">Namangan viloyatidagi shahar va tumanlar.</h3>
+    <table class="table table-hover table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nomi</th>
+          <th scope="col">Aholi soni</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Chortoq tumani</td>
+          <td>56 600</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Chust tumani</td>
+          <td>71 200</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Kosonsoy tumani</td>
+          <td>49 700</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Mingbuloq tumani</td>
+          <td>31 900</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Namangan tumani</td>
+          <td>35 700</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Norin tumani (Oʻzbekiston)</td>
+          <td>27 300</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Pop tumani</td>
+          <td>25 400</td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>Toʻraqoʻrgʻon tumani</td>
+          <td>27 300</td>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>Uchqoʻrgʻon tumani</td>
+          <td>37 100</td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td>Uychi tumani</td>
+          <td>22 300</td>
+        </tr>
+        <tr>
+          <th scope="row">11</th>
+          <td>Yangiqoʻrgʻon tumani</td>
+          <td>27 000</td>
+        </tr>
+        <tr>
+          <th scope="row">12</th>
+          <td>Davlatobod tumani</td>
+          <td>72 800</td>
+        </tr>
+        <tr>
+          <th scope="row">13</th>
+          <td>Yangi Namangan tumani</td>
+          <td>68 600</td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </div>
+</div>
+
+<div class="container mt-3 bg-info p-3">
+    <div class="row">
+        <div>
+          <h3>Namangan haqida:</h3>
+            <p>Namangan — O'zbekistonning Farg'ona viloyatida joylashgan katta shahar bo'lib, Farg'ona vodiysining markaziy qismlarida joylashgan. Bu shahar juda qadimiy tarixga ega va turli sohalarda rivojlangan iqtisodiy va madaniy markazlardan biridir. Namangan haqida ba'zi qiziqarli faktlar:</p>
+            <p>1. Tarix: Namangan qadimiy shahar bo'lib, uning tarixi miloddan avvalgi davrlarga borib taqaladi. Shahar Farg'ona vodiysida joylashgan bo'lib, bu hudud ko'plab o'zbek tarixchilari tomonidan qadimiy markaz sifatida ta'kidlanadi. Namangan uzoq vaqt davomida qishloq xo'jaligi va hunarmandchilik markazi bo'lib xizmat qilgan.</p>
+            <p>2. Geografiya: Namangan shahrining geografik joylashuvi Farg'ona vodiysi deb ataladigan hududda, O'zbekistonning sharqida, Qirg'iziston va Tojikiston bilan chegaradosh. Bu hudud o'zining tabiiy go'zalligi bilan mashhur, tog'lar va daryolar atrofida joylashgan.</p>
+            <p>3. Iqtisodiyot: Namangan iqtisodiyoti asosan paxta yetishtirish va sanoatga asoslangan. Paxta O'zbekiston iqtisodiyotida katta rol o'ynaydi, va Namangan bu sohada yetakchi hududlardan biri hisoblanadi. Bundan tashqari, shahar mato, tikuvchilik, oziq-ovqat sanoati va kimyo sanoatida ham faoliyat yuritadi.</p>
+            <p>4. Madaniyat va ta'lim: Namangan shahrida bir qancha oliy o'quv yurtlari, litseylari va kasb-hunar maktablari mavjud. Shuningdek, shahar o'zining boy madaniy merosi, adabiyoti va san'ati bilan tanilgan. Namanganning o'ziga xos folklori, musiqa va raqslar mavjud.
+            <p>5. Arxitektura va diqqatga sazovor joylar: Namangan shahrida qadimiy masjidlar, madrasalar, va boshqa tarixiy yodgorliklar mavjud. Bu joylar shahar tarixining qismi bo'lib, turistlar uchun qiziqarli diqqatga sazovor joylar hisoblanadi. Masalan, Namangan madrasasi va Ko'kcha masjidi shaharning mashhur yodgorliklaridan biridir.</p>
+            <p>6. Transport: Namangan transport tarmog'i rivojlangan bo'lib, shaharga avtomobil va temir yo'l orqali kirish mumkin. Namangan aeroporti ham mavjud bo'lib, xalqaro va ichki reyslarni amalga oshiradi.</p>
+            <p>7. Xalq va urf-odatlar: Namanganda o'zbek xalqining an'analari, urf-odatlari va bayramlari katta ahamiyatga ega. O'zbeklar uchun milliy taomlar, musiqa va raqslar muhim o'rin tutadi. Shahar aholisi asosan o'zbeklardan iborat bo'lib, turli etnik guruhlar ham yashaydi.</p>
+            <p>8. Mahalliy Taomlar: Namangan shahrida o'ziga xos mahalliy taomlar mavjud. Bu yerda pilaf, manti, lag‘mon kabi o‘zbek milliy taomlari mashhur bo‘lib, shuningdek, Namanganning pishiriqlari ham keng tarqalgan. Bu taomlar Namanganning o‘ziga xos madaniyatini aks ettiradi.</p>
+            <p>9. Ziyoratgohlar:Namangan viloyatida turli ziyoratgohlar mavjud. Misol uchun, Baliqliko‘l ziyoratgohi, Afsonalar vodiysi kabi joylar tarixiy va diniy ahamiyatga ega bo‘lib, ko'plab mahalliy va tashrif buyuruvchilar tomonidan ziyorat qilinadi. Bu joylar nafaqat diniy, balki turistik nuqtai nazardan ham qiziqarli.</p>
+            <p>10. Yoshlar Va Ta'lim: Namangan shahrida bir qancha oliy o‘quv yurtlari, litseylari va kasb-hunar maktablari mavjud. Namangan davlat universiteti va Namangan politexnika instituti kabi ta'lim muassasalari talabalar uchun ilm-fan va ta'lim imkoniyatlarini taqdim etadi. Shuningdek, shahar yoshlariga ijtimoiy va madaniy rivojlanish uchun ko'plab imkoniyatlar yaratilgan.</p>
+            <p>11. Qishloq Xo'jaligi Va Suv Resurslari: Namangan viloyatida qishloq xo'jaligi va bog'dorchilik sohalari yaxshi rivojlangan. Ayniqsa, meva-sabzavot yetishtirish, paxta va tuz ishlab chiqarishning katta roli bor. Shahar va uning atrofidagi hududlarda o‘rnatilgan irrigatsiya tizimlari orqali hosil yetishtirishda samarali ishlatiladi.</p>
+          </div>
+    </div>
+</div>
+
+<div class="container-fluid bg-light mt-3 mb-3 text-center">
+  <div class="row">
+    <div class="col">
+      Batafsil ma'lumotlar
+      <br>
+      <a href="https://uz.wikipedia.org/wiki/Namangan#Tarixi">Tarixi</a>
+      <br>
+      <a href="https://uz.wikipedia.org/wiki/Namangan#Sanoati">Sanoati</a>
+      <br>
+      <a href="https://uz.wikipedia.org/wiki/Namangan#Geografiyasi"> Geografiyasi</a>
+      <br>
+      <a href="https://uz.wikipedia.org/wiki/Namangan#Aholisi">Aholisi</a>
+      <br>
+      <a href="https://uz.wikipedia.org/wiki/Namangan#Transporti">Transporti</a>
+      <br>
+      <a href="https://uz.wikipedia.org/wiki/Namangan#Futbol">Football</a>
+      <br>
+      <a href="https://uz.wikipedia.org/wiki/Namangan#Din">Dini</a>
+      <br>
+      <a href="https://uz.wikipedia.org/wiki/Namangan#Fan_va_madaniyat">Fan va Madaniyat</a>
+      <br>
+    </div>
+    <div class="col">
+      Tashrif buyurish joylari
+      <br>
+      <a href="https://uz.wikipedia.org/wiki/Namangan#Asosiy_tashrif_buyurish_joylari">Asosiy tashrif buyurish joylari</a>
+      <br>
+      <a href="https://uz.wikipedia.org/wiki/Namangan#Bobur_bog%CA%BBi">Bobur bog'i</a>
+      <br>
+      <a href="https://uz.wikipedia.org/wiki/Namangan#Afsonalar_Vodiysi">Afsonalar vodiysi</a>
+      <br>
+      <a href="https://uz.wikipedia.org/wiki/Namangan#Mulla_Qirg%CA%BBiz_madrasasi">Mulla Qirgʻiz madrasasi</a>
+      <br>
+      <a href="https://uz.wikipedia.org/wiki/Namangan#Xojamin_Qabri_maqbarasi_va_Xoja_Amin_masjidi">Xojamin Qabri maqbarasi va Xoja Amin masjidi</a>
+      <br>
+      <a href="https://uz.wikipedia.org/wiki/Namangan#Ota_Valixonto%CA%BBra_masjidi">Ota Valixontoʻra masjidi</a>   
+      <br>
+    </div>
+    <div class="col">
+      Restorantlar
+      <br>
+      <a href="https://yandex.uz/maps/org/154732766076/?ll=71.693831%2C41.037815&z=18">Mashxur katta tandir somsa</a>
+      <br>
+      <a href="https://yandex.uz/maps/org/214445821438/?ll=71.639134%2C40.996587&z=16">Ahmadbek restoruant</a>
+      <br>
+      <a href="https://yandex.uz/maps/org/beylerbeyi_namangan_by_fluggi/218320907569/?ll=71.643986%2C40.995239&z=15">Beylar beyi turk retourant</a>
+      <br>
+      <a href="https://yandex.uz/maps/org/41297034664/?ll=71.743236%2C41.126103&z=10">Emirate retourant</a>
+      <br>
+      Mexmonxonalar
+      <br>
+      <a href="https://oydinplazahotel.uz/">OYdin plaza</a>
+      <br>
+      <a href="https://grandsherdor.uz/">Grand sherdor</a>
+      <br>
+      <a href="https://yandex.uz/maps/org/45741266082/?ll=71.677016%2C40.993701&z=16">Shedevr plaza</a>
+      <br>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
